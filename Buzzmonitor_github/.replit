@@ -1,9 +1,0 @@
-run = "python app.py"
-modules = ["python-3.10"]
-
-[packager]
-language = "python3"
-ignoredPaths = ["venv"]
-
-[packager.features]
-enableGuessImports = true
